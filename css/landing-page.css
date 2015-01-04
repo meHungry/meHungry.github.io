@@ -138,3 +138,25 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+#samples {
+    padding-bottom: 100px;
+}
+
+.circular {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+.menuitemone {
+    background: url(../img/item-one.jpg) center no-repeat;
+}
+.menuitemtwo {
+    background: url(../img/item-two.jpg) center no-repeat;
+}
+.menuitemthree {
+    background: url(../img/item-three.jpg) center no-repeat;
+}
