@@ -27,6 +27,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/jquery.js"></script>
+
+    <script src="js/site.js"></script>
 
 </head>
 
@@ -66,25 +69,19 @@
 
     <!-- Header -->
     <div class="intro-header">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>meHungry</h1>
-                        <h3>A great new way of ordering and getting your lunch and dinner</h3>
+                        <h3>A great new way of getting your lunch and dinner</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="#howto" class="btn btn-default btn-lg"> <span class="network-name">How it works</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -96,75 +93,9 @@
     </div>
     <!-- /.intro-header -->
 
-    <!-- Page Content -->
 
-    <div class="content-section-a">
 
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Step One</h2>
-                    <p class="lead">Order from our website or mobile app during peak lunch and dinner hours.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/step-one.jpg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Step Two</h2>
-                    <p class="lead">Choose from a selection of discounted specials, specially selected from a multitude of local restaurants.</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/step-two.jpg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Step Three</h2>
-                    <p class="lead">We coordinate with the restaurant to deliver your order straight to your doorstep (or dormitory).</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/step-three.jpg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <section id="samples">
+    <!--    <section id="samples">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -189,9 +120,51 @@
                 </div>
             </div>
         </div>
-    </section>
-    
-    
+    </section>-->
+
+
+    <!-- Page Content -->
+
+    <div id="howto" class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <img class="img-responsive" src="img/step-one.jpg" alt="">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h1 class="section-heading">Ready?</h1>
+                    <p class="lead">Order from our website or mobile app during peak lunch and dinner hours.</p>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <img class="img-responsive" src="img/step-two.jpg" alt="">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h1 class="section-heading">Set?</h1>
+                    <p class="lead">Choose from a selection of discounted specials, especially selected from a multitude of local restaurants.</p>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <img class="img-responsive" src="img/step-three.jpg" alt="">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h1 class="section-heading">Go!</h1>
+                    <p class="lead">We coordinate with the restaurant and drivers to deliver your order straight to your doorstep (or dormitory).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section-b">
+        <div class="container">
+            <div id="trynow" class="row">
+                <div class="col-offset-12">
+                    <a href="" class="btn btn-default btn-lg"> <span class="network-name">Try it now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="banner">
 
         <div class="container">
@@ -203,10 +176,10 @@
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            <a href="" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                         </li>
                         <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <a href="" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                         </li>
                         <li>
                             <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
