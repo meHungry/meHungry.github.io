@@ -28,13 +28,15 @@ h6 {
     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #E14E4B; 
+    height:50%;
+    /*background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;*/
 
 }
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 20%;
 }
 .intro-message > h1 {
